@@ -8,21 +8,9 @@ It follows the ceaser cipher method for encrypting/decrypting text messages
 - Decryption
 - Treats Uppercase and Lowercase differently during encryption
 
-<!--
-# How to Run
+# how to run: 
+1. Compile the program: 
+    gcc main.c functions.c -o main  
 
-1. Compile the program:
-   gcc main.c functions.c -o main.exe
-
-2. Run the executable:
-   ./main.exe   (on Linux/Mac)
-   main.exe     (on Windows)
-
-3. Follow the on-screen menu:
-   - Enter 1 to encrypt text
-   - Enter 2 to decrypt text
-   - Enter 3 to exit
-
-Note: Always compile both main.c and functions.c together. If you only compile
-main.c, you'll get an "undefined reference to encrypt" error.
--->
+2. run the executable:
+    ./main.exe
